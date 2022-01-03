@@ -648,6 +648,8 @@ namespace Chummer
                     return objImprovementAdder.selectexpertise;
                 case "PENALTYFREESUSTAIN":
                     return objImprovementAdder.penaltyfreesustain;
+                case "SINLEVEL":
+                    return objImprovementAdder.sinlevel;
                 // No method matches, return a null pointer
                 default:
                     return null;

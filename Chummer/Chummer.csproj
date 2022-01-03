@@ -1119,6 +1119,7 @@
     <Content Include="data\actions.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="data\lifemodulesRework.xml" />
     <Content Include="data\references.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

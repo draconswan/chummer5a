@@ -7619,7 +7619,7 @@ namespace Chummer.Classes
         {
             Log.Info("sinlevel");
             string strSINType;
-            XmlDocument objXmlDocument = XmlManager.Load("qualities.xml", GlobalOptions.Language);
+            XmlDocument objXmlDocument = _objCharacter.LoadData("qualities.xml");
             if (bonusNode["options"] != null && bonusNode["options"].HasChildNodes)
             {
                 List<ListItem> lstOptions = new List<ListItem>();
@@ -7631,18 +7631,21 @@ namespace Chummer.Classes
                     lstOptions.Add(new ListItem(childNode.InnerText, data));
                 }
 
-                frmSelectItem frmPickItem = new frmSelectItem
+                using (frmSelectItem frmPickItem = new frmSelectItem
+                       {
+                           Description = LanguageManager.GetString("Message_LifeModule_SelectSIN")
+                       })
                 {
-                    GeneralItems = lstOptions,
-                    Description = LanguageManager.GetString("Message_LifeModule_SelectSIN", GlobalOptions.Language)
-                };
-                frmPickItem.ShowDialog();
+                    frmPickItem.SetGeneralItemsMode(lstOptions);
 
-                if (frmPickItem.DialogResult == DialogResult.Cancel)
-                {
-                    throw new AbortedException();
+                    frmPickItem.ShowDialog();
+                    if (frmPickItem.DialogResult == DialogResult.Cancel)
+                    {
+                        throw new AbortedException();
+                    }
+
+                    strSINType = frmPickItem.SelectedItem;
                 }
-                strSINType = frmPickItem.SelectedItem;
             }
             else
             {
@@ -7656,7 +7659,7 @@ namespace Chummer.Classes
                 frmSelectText frmPickText = new frmSelectText
                 {
                     Description =
-                        LanguageManager.GetString("String_Improvement_SelectText", GlobalOptions.Language)
+                        LanguageManager.GetString("String_Improvement_SelectText")
                             .Replace("{0}", objXmlSelectedQuality?["translate"]?.InnerText ?? objXmlSelectedQuality?["name"]?.InnerText)
                 };
                 frmPickText.ShowDialog();
@@ -7670,7 +7673,7 @@ namespace Chummer.Classes
             }
 
             int karmaValue = ImprovementManager.ValueToInt(_objCharacter, objXmlSelectedQuality?["karma"]?.InnerText ?? "0", _intRating);
-            CreateImprovement(strSINType, _objImprovementSource, SourceName, Improvement.ImprovementType.Sinlevel, _strFriendlyName, karmaValue, 1, 0, 0, 0, 0, string.Empty, false,
+            CreateImprovement(strSINType, _objImprovementSource, SourceName, Improvement.ImprovementType.SinLevel, _strFriendlyName, karmaValue, 1, 0, 0, 0, 0, string.Empty, false,
                 strForceValue);
 
             Quality maxKarmaSIN = _objCharacter.Qualities.FirstOrDefault(x => x.Name.Contains("SIN"));

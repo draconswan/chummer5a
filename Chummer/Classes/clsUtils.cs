@@ -56,8 +56,8 @@ namespace Chummer
             if (Debugger.IsAttached && !IsUnitTest)
             {
                 int intErrorCode = Marshal.GetLastWin32Error();
-                if (intErrorCode != 0)
-                    Debugger.Break();
+                // if (intErrorCode != 0)
+                //     Debugger.Break();
             }
 #endif
         }

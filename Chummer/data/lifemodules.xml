@@ -56,25 +56,7 @@
               <val>2</val>
               <name>[City]</name>
             </knowledgeskilllevel>
-            <knowledgeskilllevel>
-              <options>
-                <spanish>Spanish</spanish>
-                <german>German</german>
-                <italian>Italian</italian>
-                <flee>French</flee>
-                <orange>Mandarin</orange>
-                <polish>Polish</polish>
-                <yiddish>Yiddish</yiddish>
-              </options>
-              <id>a9df9852-6f4d-423d-8251-c92a709c1476</id>
-              <group>Language</group>
-              <val>2</val>
-            </knowledgeskilllevel>
-            <pushtext>United Canadian American States</pushtext>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="United Canadian American States">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -94,11 +76,7 @@
             <skilllevel>
               <name>Etiquette</name>
             </skilllevel>
-            <pushtext>United Canadian American States</pushtext>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="United Canadian American States">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -119,11 +97,7 @@
             <skilllevel>
               <name>Etiquette</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>United Canadian American States</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="United Canadian American States">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -145,11 +119,7 @@
               <name>Seattle</name>
               <val>2</val>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>United Canadian American States</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="United Canadian American States">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -185,17 +155,9 @@
           <val>0</val>
         </knowledgeskilllevel>
         <knowledgeskilllevel>
-          <options>
-            <spanish>Spanish</spanish>
-            <german>German</german>
-            <italian>Italian</italian>
-            <flee>French</flee>
-            <orange>Mandarin</orange>
-            <polish>Polish</polish>
-            <yiddish>Yiddish</yiddish>
-          </options>
-          <id>a9df9852-6f4d-423d-8251-c92a709c1476</id>
+          <options limittoskill="Spanish,German,Italian,French,Mandarin,Polish,Yiddish"/>
           <group>Language</group>
+          <val>2</val>
         </knowledgeskilllevel>
       </bonus>
       <story>Allan, please add story UCAS</story>
@@ -220,11 +182,7 @@
               <name>Computer</name>
               <val>2</val>
             </skilllevel>
-            <pushtext>Confederation of American States</pushtext>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Confederation of American States">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -245,11 +203,7 @@
               <group>Street</group>
               <val>2</val>
             </knowledgeskilllevel>
-            <pushtext>Confederation of American States</pushtext>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Confederation of American States">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -383,11 +337,7 @@
         <skilllevel>
           <name>Etiquette</name>
         </skilllevel>
-        <pushtext>Tír Tairngire</pushtext>
-        <!--<freenegativequalities>-5</freenegativequalities>-->
-        <addqualities>
-          <addquality forced="True">SINner (National)</addquality>
-        </addqualities>
+        <sinlevel select="Tír Tairngire">SINner (National)</sinlevel>
       </bonus>
       <story>$real was born in Tir Tairngire, $TIRDESC .</story>
       <source>RF</source>
@@ -452,11 +402,7 @@
               <name>[Tribe]</name>
               <group>Street</group>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Algonkian-Manitou Council</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Algonkian-Manitou Council">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -486,11 +432,7 @@
             <skilllevel>
               <name>Survival</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Athabaskan Council</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Athabaskan Council">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -537,11 +479,7 @@
               <name>Business Practices</name>
               <group>Professional</group>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Pueblo Corporate Council</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Pueblo Corporate Council">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -573,11 +511,7 @@
             <skilllevel>
               <name>Survival</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Salish-Shidhe Council</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Salish-Shidhe Council">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -628,11 +562,7 @@
               <name>Sioux Culture</name>
               <group>Street</group>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Sioux Nation</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Sioux Nation">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -661,11 +591,7 @@
               <group>Professional</group>
               <val>2</val>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Trans-Polar Aleut Nation</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Trans-Polar Aleut Nation">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -724,11 +650,7 @@
             <skilllevel>
               <name>Computer</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Denver</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Denver">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -751,11 +673,7 @@
               <group>Street</group>
               <val>2</val>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Las Vegas</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Las Vegas">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -791,11 +709,7 @@
               <val>2</val>
               <group>Street</group>
             </knowledgeskilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Salt Lake City</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Salt Lake City">SINner (National)</sinlevel>
           </bonus>
         </version>
       </versions>
@@ -809,7 +723,7 @@
           <group>Academic</group>
         </knowledgeskilllevel>
         <knowledgeskilllevel>
-          <name>UCAS</name>
+          <name>NAN</name>
           <group>Academic</group>
         </knowledgeskilllevel>
       </bonus>
@@ -862,10 +776,7 @@
           <val>3</val>
           <name>[Corporation]</name>
         </knowledgeskilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
       </bonus>
       <story>$real was $LUCK enough to grow up in an Arcology: a corporate fortress city that $ARCOLOGY.</story>
       <source>RF</source>
@@ -1002,8 +913,8 @@
         <addqualities>
           <addquality>Paranoia</addquality>
           <addquality>Bad Rep</addquality>
-          <addquality forced="True">SINner (Criminal)</addquality>
         </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
       </bonus>
       <story>$real spent their formative years with their parents as they ran away from $FLEE.</story>
       <source>RF</source>
@@ -1457,8 +1368,8 @@
           <addquality>Black Market Pipeline</addquality>
           <addquality>Paranoia</addquality>
           <addquality>Uneducated</addquality>
-          <addquality forced="True">SINner (Criminal)</addquality>
         </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
       </bonus>
       <story>$real spent their teenage years shooting at other teenagers just to gain control over a few city
         blocks. Just to be clear, $real was in a gang, not the Battle of Stalingrad.
@@ -1703,10 +1614,7 @@
           <name>Arcana</name>
           <val>2</val>
         </skilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
       </bonus>
       <required>
         <oneof>
@@ -1763,10 +1671,7 @@
           <name>Arcana</name>
           <val>2</val>
         </skilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
       </bonus>
       <required>
         <oneof>
@@ -1823,10 +1728,7 @@
           <name>Arcana</name>
           <val>2</val>
         </skilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
       </bonus>
       <required>
         <oneof>
@@ -1854,9 +1756,7 @@
           <name>CHA</name>
           <val>1</val>
         </attributelevel>
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Blades</name>
           <val>1</val>
@@ -1918,7 +1818,6 @@
           <name>Arcana</name>
           <val>2</val>
         </skilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
       </bonus>
       <required>
         <oneof>
@@ -1946,9 +1845,7 @@
           <name>CHA</name>
           <val>1</val>
         </attributelevel>
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Blades</name>
           <val>1</val>
@@ -2010,7 +1907,6 @@
           <name>Arcana</name>
           <val>2</val>
         </skilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
       </bonus>
       <required>
         <oneof>
@@ -2038,9 +1934,7 @@
           <name>CHA</name>
           <val>1</val>
         </attributelevel>
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Automatics</name>
           <val>1</val>
@@ -2102,7 +1996,6 @@
           <name>Arcana</name>
           <val>2</val>
         </skilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
       </bonus>
       <required>
         <oneof>
@@ -2197,8 +2090,6 @@
           <group>Professional</group>
           <val>1</val>
         </knowledgeskilllevel>
-        <!--<freenegativequalities>-15</freenegativequalities>-->
-        <!--<freepositivequalities>5</freepositivequalities>-->
         <addqualities>
           <addquality>Rank (Neither Military nor Law Enforcement) I</addquality>
           <addquality>Code of Honor</addquality>
@@ -4481,9 +4372,7 @@
           <group>Professional</group>
           <val>3</val>
         </knowledgeskilllevel>
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
       </bonus>
       <versions>
         <version>
@@ -5066,9 +4955,7 @@
         <skilllevel>
           <name>Running</name>
         </skilllevel>
-        <addqualities>
-          <addquality forced="True">SINner (Criminal)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
       </bonus>
       <story>$real became a criminal, their main income coming from selling other people’s cyber-VCRs, and
         occasionally mugging people and stealing the money they got by selling cyber-VCRs.
@@ -5140,9 +5027,7 @@
           <group>Professional</group>
           <val>4</val>
         </knowledgeskilllevel>
-        <addqualities>
-          <addquality forced="True">SINner (National)</addquality>
-        </addqualities>
+        <sinlevel>SINner (National)</sinlevel>
       </bonus>
       <story>$real somehow managed to get a job with one of the few government organizations that hasn’t yet been
         privatized. Be it with the FBI, MI5, NSA, TAO, Unit 61398, or some other organization, they get to be
@@ -5480,8 +5365,8 @@
         </knowledgeskilllevel>
         <addqualities>
           <addquality>Made Man</addquality>
-          <addquality forced="True">SINner (Criminal)</addquality>
         </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
       </bonus>
       <story>$real decided the best way to wealth and power was also the most brutal: organized crime.
         Specializing in $GANGDESC , $real became well known in the $GANGTYPE
@@ -5557,9 +5442,7 @@
           <group>Interest</group>
           <val>4</val>
         </knowledgeskilllevel>
-        <addqualities>
-          <addquality forced="True">SINner (Criminal)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
       </bonus>
       <story>$real was one of the most dangerous things in the world: an idealist. Working for a small policlub or
         interest group, they got arrested multiple times in their quest to make the world a better place.
@@ -6666,9 +6549,7 @@
           <group>Street</group>
           <val>2</val>
         </knowledgeskilllevel>
-        <addqualities>
-          <addquality forced="True">SINner (Criminal)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
       </bonus>
       <story>$real decided activism is for fools. The only way to get your voice heard is force. Blowing up pubs,
         executing civilians, assassinations, $real has done it all.
@@ -7754,9 +7635,7 @@
           <group>Professional</group>
           <val>4</val>
         </knowledgeskilllevel>
-        <addqualities>
-          <addquality forced="True">SINner (National)</addquality>
-        </addqualities>
+        <sinlevel>SINner (National)</sinlevel>
       </bonus>
       <versions>
         <version>
@@ -8959,9 +8838,9 @@
         </knowledgeskilllevel>
         <addqualities>
           <addquality>Natural Athlete</addquality>
-          <addquality forced="True">SINner (National)</addquality>
           <addquality>Fame: Local</addquality>
         </addqualities>
+        <sinlevel>SINner (National)</sinlevel>
       </bonus>
       <story>$real fought in Urban Brawl, which, despite all appearances, is somehow not a blood sport. It did,
         however, teach them quite a lot of things about $URBANBRAWL .
@@ -9095,11 +8974,7 @@
             <!--              <name>Athletics</name>-->
             <!--              <val>1</val>-->
             <!--            </skillgrouplevel>-->
-            <pushtext>Caribbean League</pushtext>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Caribbean League">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -9119,11 +8994,7 @@
             <skilllevel>
               <name>Diving</name>
             </skilllevel>
-            <pushtext>Caribbean League</pushtext>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Caribbean League">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -9143,11 +9014,7 @@
             <skilllevel>
               <name>Survival</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Caribbean League</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Caribbean League">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -9167,11 +9034,7 @@
             <skilllevel>
               <name>Etiquette</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <pushtext>Caribbean League</pushtext>
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Caribbean League">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -10450,10 +10313,7 @@
             <skilllevel>
               <name>Swimming</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Amazonian">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -10476,10 +10336,7 @@
             <skilllevel>
               <name>Computer</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Amazonian">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -10498,10 +10355,7 @@
             <skilllevel>
               <name>Negotiation</name>
             </skilllevel>
-            <!--<freenegativequalities>-5</freenegativequalities>-->
-            <addqualities>
-              <addquality forced="True">SINner (National)</addquality>
-            </addqualities>
+            <sinlevel select="Amazonian">SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -11752,9 +11606,7 @@
         </oneof>
       </required>
       <bonus>
-        <addqualities>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
-        </addqualities>
+      	<sinlevel>SINner (Corporate Limited)</sinlevel>
         <attributelevel>
           <name>LOG</name>
         </attributelevel>
@@ -12027,8 +11879,8 @@
         </attributelevel>
         <addqualities>
           <addquality>Fame: National</addquality>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
         </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <knowledgeskilllevel>
           <name>[Any]</name>
           <group>Language</group>
@@ -12502,9 +12354,7 @@
               <group>Street</group>
               <val>2</val>
             </knowledgeskilllevel>
-            <addqualities>
-              <addquality forced="True">SINner: National</addquality>
-            </addqualities>
+            <sinlevel>SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -12525,9 +12375,7 @@
               <group>Street</group>
               <val>2</val>
             </knowledgeskilllevel>
-            <addqualities>
-              <addquality forced="True">SINner: National</addquality>
-            </addqualities>
+            <sinlevel>SINner (National)</sinlevel>
           </bonus>
         </version>
         <version>
@@ -12562,9 +12410,7 @@
               <group>Street</group>
               <val>2</val>
             </knowledgeskilllevel>
-            <addqualities>
-              <addquality forced="True">SINner: National</addquality>
-            </addqualities>
+            <sinlevel>SINner (National)</sinlevel>
           </bonus>
         </version>
       </versions>
@@ -12789,9 +12635,7 @@
         <attributelevel>
           <name>INT</name>
         </attributelevel>
-        <addqualities>
-          <addquality forced="True">SINner (Criminal)</addquality>
-        </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
         <skilllevel>
           <name>Disguise</name>
         </skilllevel>
@@ -12970,9 +12814,9 @@
         </attributelevel>
         <addqualities>
           <addquality>Common Sense</addquality>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
           <addquality>Perceptive</addquality>
         </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Con</name>
         </skilllevel>
@@ -13020,8 +12864,8 @@
         <addqualities>
           <addquality>Born Rich</addquality>
           <addquality>Privileged Family Name</addquality>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
         </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Etiquette</name>
         </skilllevel>
@@ -13073,8 +12917,8 @@
           <!-- todo: should have 3 levels of records on file -->
           <addquality>Daredevil</addquality>
           <addquality>Records on File</addquality>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
         </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Intimidation</name>
         </skilllevel>
@@ -13425,8 +13269,8 @@
           <addquality>Records on File</addquality>
           <addquality>Solid Rep</addquality>
           <addquality>Observant</addquality>
-          <addquality forced="True">SINner (Corporate Limited)</addquality>
         </addqualities>
+        <sinlevel>SINner (Corporate Limited)</sinlevel>
         <skilllevel>
           <name>Automatics</name>
         </skilllevel>
@@ -13858,10 +13702,10 @@
         </attributelevel>
         <addqualities>
           <addquality>Battle Hardened</addquality>
-          <addquality forced="True">SINner (Criminal)</addquality>
           <addquality>Paranoia</addquality>
           <addquality>Wanted</addquality>
         </addqualities>
+        <sinlevel>SINner (Criminal)</sinlevel>
         <skilllevel>
           <name>Automotive Mechanic</name>
           <val>3</val>
@@ -14563,329 +14407,329 @@
     <!-- End Region -->
     <!-- End Region -->
   </modules>
-  <storybuilder>
-    <macros>
-      <alphabet>
-        <random>
-          <a>A is for Ares</a>
-          <a2>A is for Aztechnology</a2>
-          <c>C is for Celedyr</c>
-          <d>D is for Dunkelzahn</d>
-          <d2>D is for DocWagon</d2>
-          <e>E is for Evo</e>
-          <h>H is for Horizon</h>
-          <h2>H is for Hualpa</h2>
-          <l>L is for Lofwyr</l>
-          <l2>L is for LoneStar</l2>
-          <m>M is for Mitsuhama</m>
-          <m2>M is for Monobe</m2>
-          <n>N is for NeoNET</n>
-          <p>P is for Proteus</p>
-          <r>R is for Renraku</r>
-          <s>S is for Saeder-Krupp</s>
-          <s2>S is for Shiawase</s2>
-          <w>W is for Wuxing</w>
-          <z>Z is for Zurich-Orbital</z>
-        </random>
-      </alphabet>
-      <sticky>
-        <random>
-          <g>grease</g>
-          <o>engine oil</o>
-        </random>
-      </sticky>
-      <hackdesc>
-        <random>
-          <zog>managed to hack into Zurich-Orbital Gemeinschaft Bank and transfer themselves an absurd amount
-            of nuyen
-          </zog>
-          <god>killed an entire division of GOD operatives</god>
-          <kfc>stole KFC’s original secret mix of herbs and spices</kfc>
-        </random>
-      </hackdesc>
-      <matrixhide>
-        <random>
-          <corp>corporate board meetings</corp>
-          <ppv>paid porn sites</ppv>
-        </random>
-      </matrixhide>
-      <slave>
-        <random>
-          <p>as a child prostitute</p>
-          <mine>working in a coal mine</mine>
-          <factory>working in a sweatshop</factory>
-          <maid>cleaning up after their owner</maid>
-        </random>
-      </slave>
-      <urbanbrawl>
-        <random>
-          <wu>how to jump forward while dual wielding pistols and firing doves out of their ass</wu>
-          <matrix>how cool they look in black</matrix>
-          <bay>how cool explosions are</bay>
-        </random>
-      </urbanbrawl>
-      <shadowchild>
-        <random>
-          <gun>which end of a gun bullets come out of</gun>
-          <mage>why and how one geeks mages</mage>
-          <s1>how to shoot straight</s1>
-          <s2>how to conserve ammo</s2>
-          <s3>why one must never deal with a dragon</s3>
-        </random>
-      </shadowchild>
-      <bagorgan>
-        <random>
-          <h>harvested</h>
-          <repo>repossessed</repo>
-        </random>
-      </bagorgan>
-      <ucasorigin>
-        <random>
-          <cleveland>Cleveland</cleveland>
-          <dm>Des Moines</dm>
-          <p>Peoria</p>
-        </random>
-      </ucasorigin>
-      <tirdesc>
-        <random>
-          <nazi>one of two elf supremacist nations</nazi>
-          <prop>a magical utopia founded by elves, for elves</prop>
-          <conspiracy>a fascist dictatorship run by undying tyrants who predate written history</conspiracy>
-        </random>
-      </tirdesc>
-      <farmdesc>
-        <random>
-          <drone>repairing the drones that moved around hay for him</drone>
-          <paranoia>skimming nutrients of the surface of algae vats</paranoia>
-          <krill>maintaining the complex piping systems that kept gigantic batches of krill alive until they
-            grew to maturity and could be compressed into nutrient rich cubes
-          </krill>
-        </random>
-      </farmdesc>
-      <farmtask>
-        <random>
-          <cube>stacking CubeHens TM</cube>
-          <butter>churning I Can’t Believe It’s Not Butter TM</butter>
-          <meat>maintaining the chlorine tanks on the meat sterilizer</meat>
-        </random>
-      </farmtask>
-      <homedesc>
-        <random>
-          <homeschooling>his parents, who were afraid that if they sent $real to school the school would
-            vaccinate $real into atheism
-          </homeschooling>
-          <tutor>a personal tutor, who understood the subjects better than the average teacher</tutor>
-        </random>
-      </homedesc>
-      <entity>
-        <random>
-          <ucas>the UCAS</ucas>
-          <cas>the CAS</cas>
-          <a>Ares</a>
-          <a2>Aztechnology</a2>
-          <e>Evo</e>
-          <h>Horizon</h>
-          <m>Mitsuhama</m>
-          <n>NeoNET</n>
-          <r>Renraku</r>
-          <s>Saeder-Krupp</s>
-          <s2>Shiawase</s2>
-          <w>Wuxing</w>
-          <ru>Russia</ru>
-          <jp>Japan</jp>
-          <az>Amazonia</az>
-          <tir>one of the Tirs</tir>
-          <nan>one of the NANs</nan>
-        </random>
-      </entity>
-      <employer>
-        <random>
-          <a>Ares</a>
-          <a2>Aztechnology</a2>
-          <e>Evo</e>
-          <h>Horizon</h>
-          <m>Mitsuhama</m>
-          <n>NeoNET</n>
-          <r>Renraku</r>
-          <s>Saeder-Krupp</s>
-          <s2>Shiawase</s2>
-          <t>Telestrian</t>
-          <w>Wuxing</w>
-          <aa>a AA corp, such as Monobe International or Docwagon</aa>
-          <a>a single A corp, such as The People’s Republic of Vietnam</a>
-        </random>
-      </employer>
-      <streetdesc>
-        <random>
-          <punch>kicking ass</punch>
-          <run>running away from the cops</run>
-          <stealth>breaking and entering</stealth>
-        </random>
-      </streetdesc>
-      <famousdesc>
-        <movie>stared in a famous movie</movie>
-        <tv>appeared in a reality trideo</tv>
-        <sports>moved a ball slightly better than all the other players</sports>
-        <chu>won on jeopardy</chu>
-        <kim>… to be honest, we aren’t really sure why</kim>
-      </famousdesc>
-      <copdesc>
-        <random>
-          <justice>’s great belief in justice drove them to join with the physical embodiment of that: the
-            police.
-          </justice>
-          <real>realized that cops get to murder innocents with impunity and thought “Get me some of that!”
-          </real>
-        </random>
-      </copdesc>
-      <gangdesc>
-        <random>
-          <cash>moneylending</cash>
-          <grunt>breaking kneecaps with lead pipes</grunt>
-          <race>fixing races</race>
-          <drug>producing drugs</drug>
-        </random>
-      </gangdesc>
-      <gangtype>
-        <random>
-          <m>Mob</m>
-          <ma>Mafia</ma>
-          <yak>Yakuza</yak>
-          <t>Triads</t>
-          <ko>Seoulpa Rings</ko>
-          <gc>Ghost Cartels</gc>
-        </random>
-      </gangtype>
-      <crimetext>
-        <random>
-          <noir>old noir movies</noir>
-          <pulp>old pulp novels</pulp>
-        </random>
-      </crimetext>
-      <megawhore>
-        <random>
-          <ex>extraterritoriality is a good thing</ex>
-          <jap>extreme racism is good for national unity</jap>
-          <unem>unemployment is a good thing</unem>
-          <gw>global warming is really a communist hoax</gw>
-          <polut>pollution isn’t really that big of a deal</polut>
-          <link>megacorps keeping material links of all their employees keeps people safe</link>
-          <azzie>human sacrifice is good for national unity</azzie>
-        </random>
-      </megawhore>
-      <warnan>
-        <random>
-          <ucas>the UCAS</ucas>
-          <azz>the Azzies</azz>
-          <nan>other NANs, ironically enough</nan>
-        </random>
-      </warnan>
-      <arcology>
-        <random>
-          <deus>was not taken over by a murderous AI bent on world domination</deus>
-          <corp>provided for every need of its residents</corp>
-          <runner>pampered its residents in an attempt to resign them to corp life</runner>
-        </random>
-      </arcology>
-      <orphan>
-        <random>
-          <futurama>orphanarium</futurama>
-          <real1>orphanage</real1>
-          <real2>orphanage</real2>
-          <real3>orphanage</real3>
-          <real4>orphanage</real4>
-        </random>
-      </orphan>
-      <outdoor>
-        <random>
-          <hunt>hunting</hunt>
-          <trap>trapping</trap>
-          <swim>swimming</swim>
-          <mlp>beastiality</mlp>
-          <incest>incest</incest>
-        </random>
-      </outdoor>
-      <flee>
-        <random>
-          <feds>the feds</feds>
-          <god>the Grid Overwatch Division</god>
-          <corp>$RMEGA corporate security forces</corp>
-          <riaa>RIAA Anti-Piracy Forces</riaa>
-        </random>
-      </flee>
-      <persistent>
-        <random>
-          <dad>father</dad>
-          <mom>mother</mom>
-        </random>
-      </persistent>
-      <luck>
-        <random>
-          <l>lucky</l>
-          <u>unlucky</u>
-        </random>
-      </luck>
-      <insulta>
-        <random>
-          <gutter>guttersnipe</gutter>
-          <rag>ragamuffin</rag>
-        </random>
-      </insulta>
-      <mega>
-        <persistent>
-          <ares>Ares</ares>
-          <aztech>Aztechnology</aztech>
-          <evo>EVO</evo>
-          <horizon>Horizon</horizon>
-          <neonet>NeoNET</neonet>
-          <mct>Mitsuhama</mct>
-          <renraku>Renraku</renraku>
-          <sk>Saeder-Krupp</sk>
-          <shia>Shiawase</shia>
-          <tele>Telestrian</tele>
-          <wux>Wuxing</wux>
-        </persistent>
-      </mega>
-      <rmega>
-        <random>
-          <ares>Ares</ares>
-          <aztech>Aztechnology</aztech>
-          <evo>EVO</evo>
-          <horizon>Horizon</horizon>
-          <neonet>NeoNET</neonet>
-          <mct>Mitsuhama</mct>
-          <renraku>Renraku</renraku>
-          <sk>Saeder-Krupp</sk>
-          <shia>Shiawase</shia>
-          <tele>Telestrian</tele>
-          <wux>Wuxing</wux>
-        </random>
-      </rmega>
-      <season>
-        <random>
-          <spring>Spring</spring>
-          <summer>Summer</summer>
-          <atum>Autumn</atum>
-          <winter>Winter</winter>
-        </random>
-      </season>
-      <metatype>
-        <random>
-          <troll>Troll</troll>
-          <ork>Ork</ork>
-          <elf>Elf</elf>
-          <dwarf>Dwarf</dwarf>
-          <human>Human</human>
-        </random>
-      </metatype>
-      <metavariant>
-        <random>
-          <nevergonnagiveyouup>never gonna let you down</nevergonnagiveyouup>
-          <default>$METATYPE</default>
-        </random>
-      </metavariant>
-      <test>Something something, cake?</test>
-      <magic>Then " $TEST " and a big can of whoopass</magic>
-    </macros>
-  </storybuilder>
+<!--  <storybuilder>-->
+<!--    <macros>-->
+<!--      <alphabet>-->
+<!--        <random>-->
+<!--          <a>A is for Ares</a>-->
+<!--          <a2>A is for Aztechnology</a2>-->
+<!--          <c>C is for Celedyr</c>-->
+<!--          <d>D is for Dunkelzahn</d>-->
+<!--          <d2>D is for DocWagon</d2>-->
+<!--          <e>E is for Evo</e>-->
+<!--          <h>H is for Horizon</h>-->
+<!--          <h2>H is for Hualpa</h2>-->
+<!--          <l>L is for Lofwyr</l>-->
+<!--          <l2>L is for LoneStar</l2>-->
+<!--          <m>M is for Mitsuhama</m>-->
+<!--          <m2>M is for Monobe</m2>-->
+<!--          <n>N is for NeoNET</n>-->
+<!--          <p>P is for Proteus</p>-->
+<!--          <r>R is for Renraku</r>-->
+<!--          <s>S is for Saeder-Krupp</s>-->
+<!--          <s2>S is for Shiawase</s2>-->
+<!--          <w>W is for Wuxing</w>-->
+<!--          <z>Z is for Zurich-Orbital</z>-->
+<!--        </random>-->
+<!--      </alphabet>-->
+<!--      <sticky>-->
+<!--        <random>-->
+<!--          <g>grease</g>-->
+<!--          <o>engine oil</o>-->
+<!--        </random>-->
+<!--      </sticky>-->
+<!--      <hackdesc>-->
+<!--        <random>-->
+<!--          <zog>managed to hack into Zurich-Orbital Gemeinschaft Bank and transfer themselves an absurd amount-->
+<!--            of nuyen-->
+<!--          </zog>-->
+<!--          <god>killed an entire division of GOD operatives</god>-->
+<!--          <kfc>stole KFC’s original secret mix of herbs and spices</kfc>-->
+<!--        </random>-->
+<!--      </hackdesc>-->
+<!--      <matrixhide>-->
+<!--        <random>-->
+<!--          <corp>corporate board meetings</corp>-->
+<!--          <ppv>paid porn sites</ppv>-->
+<!--        </random>-->
+<!--      </matrixhide>-->
+<!--      <slave>-->
+<!--        <random>-->
+<!--          <p>as a child prostitute</p>-->
+<!--          <mine>working in a coal mine</mine>-->
+<!--          <factory>working in a sweatshop</factory>-->
+<!--          <maid>cleaning up after their owner</maid>-->
+<!--        </random>-->
+<!--      </slave>-->
+<!--      <urbanbrawl>-->
+<!--        <random>-->
+<!--          <wu>how to jump forward while dual wielding pistols and firing doves out of their ass</wu>-->
+<!--          <matrix>how cool they look in black</matrix>-->
+<!--          <bay>how cool explosions are</bay>-->
+<!--        </random>-->
+<!--      </urbanbrawl>-->
+<!--      <shadowchild>-->
+<!--        <random>-->
+<!--          <gun>which end of a gun bullets come out of</gun>-->
+<!--          <mage>why and how one geeks mages</mage>-->
+<!--          <s1>how to shoot straight</s1>-->
+<!--          <s2>how to conserve ammo</s2>-->
+<!--          <s3>why one must never deal with a dragon</s3>-->
+<!--        </random>-->
+<!--      </shadowchild>-->
+<!--      <bagorgan>-->
+<!--        <random>-->
+<!--          <h>harvested</h>-->
+<!--          <repo>repossessed</repo>-->
+<!--        </random>-->
+<!--      </bagorgan>-->
+<!--      <ucasorigin>-->
+<!--        <random>-->
+<!--          <cleveland>Cleveland</cleveland>-->
+<!--          <dm>Des Moines</dm>-->
+<!--          <p>Peoria</p>-->
+<!--        </random>-->
+<!--      </ucasorigin>-->
+<!--      <tirdesc>-->
+<!--        <random>-->
+<!--          <nazi>one of two elf supremacist nations</nazi>-->
+<!--          <prop>a magical utopia founded by elves, for elves</prop>-->
+<!--          <conspiracy>a fascist dictatorship run by undying tyrants who predate written history</conspiracy>-->
+<!--        </random>-->
+<!--      </tirdesc>-->
+<!--      <farmdesc>-->
+<!--        <random>-->
+<!--          <drone>repairing the drones that moved around hay for him</drone>-->
+<!--          <paranoia>skimming nutrients of the surface of algae vats</paranoia>-->
+<!--          <krill>maintaining the complex piping systems that kept gigantic batches of krill alive until they-->
+<!--            grew to maturity and could be compressed into nutrient rich cubes-->
+<!--          </krill>-->
+<!--        </random>-->
+<!--      </farmdesc>-->
+<!--      <farmtask>-->
+<!--        <random>-->
+<!--          <cube>stacking CubeHens TM</cube>-->
+<!--          <butter>churning I Can’t Believe It’s Not Butter TM</butter>-->
+<!--          <meat>maintaining the chlorine tanks on the meat sterilizer</meat>-->
+<!--        </random>-->
+<!--      </farmtask>-->
+<!--      <homedesc>-->
+<!--        <random>-->
+<!--          <homeschooling>his parents, who were afraid that if they sent $real to school the school would-->
+<!--            vaccinate $real into atheism-->
+<!--          </homeschooling>-->
+<!--          <tutor>a personal tutor, who understood the subjects better than the average teacher</tutor>-->
+<!--        </random>-->
+<!--      </homedesc>-->
+<!--      <entity>-->
+<!--        <random>-->
+<!--          <ucas>the UCAS</ucas>-->
+<!--          <cas>the CAS</cas>-->
+<!--          <a>Ares</a>-->
+<!--          <a2>Aztechnology</a2>-->
+<!--          <e>Evo</e>-->
+<!--          <h>Horizon</h>-->
+<!--          <m>Mitsuhama</m>-->
+<!--          <n>NeoNET</n>-->
+<!--          <r>Renraku</r>-->
+<!--          <s>Saeder-Krupp</s>-->
+<!--          <s2>Shiawase</s2>-->
+<!--          <w>Wuxing</w>-->
+<!--          <ru>Russia</ru>-->
+<!--          <jp>Japan</jp>-->
+<!--          <az>Amazonia</az>-->
+<!--          <tir>one of the Tirs</tir>-->
+<!--          <nan>one of the NANs</nan>-->
+<!--        </random>-->
+<!--      </entity>-->
+<!--      <employer>-->
+<!--        <random>-->
+<!--          <a>Ares</a>-->
+<!--          <a2>Aztechnology</a2>-->
+<!--          <e>Evo</e>-->
+<!--          <h>Horizon</h>-->
+<!--          <m>Mitsuhama</m>-->
+<!--          <n>NeoNET</n>-->
+<!--          <r>Renraku</r>-->
+<!--          <s>Saeder-Krupp</s>-->
+<!--          <s2>Shiawase</s2>-->
+<!--          <t>Telestrian</t>-->
+<!--          <w>Wuxing</w>-->
+<!--          <aa>a AA corp, such as Monobe International or Docwagon</aa>-->
+<!--          <a>a single A corp, such as The People’s Republic of Vietnam</a>-->
+<!--        </random>-->
+<!--      </employer>-->
+<!--      <streetdesc>-->
+<!--        <random>-->
+<!--          <punch>kicking ass</punch>-->
+<!--          <run>running away from the cops</run>-->
+<!--          <stealth>breaking and entering</stealth>-->
+<!--        </random>-->
+<!--      </streetdesc>-->
+<!--      <famousdesc>-->
+<!--        <movie>stared in a famous movie</movie>-->
+<!--        <tv>appeared in a reality trideo</tv>-->
+<!--        <sports>moved a ball slightly better than all the other players</sports>-->
+<!--        <chu>won on jeopardy</chu>-->
+<!--        <kim>… to be honest, we aren’t really sure why</kim>-->
+<!--      </famousdesc>-->
+<!--      <copdesc>-->
+<!--        <random>-->
+<!--          <justice>’s great belief in justice drove them to join with the physical embodiment of that: the-->
+<!--            police.-->
+<!--          </justice>-->
+<!--          <real>realized that cops get to murder innocents with impunity and thought “Get me some of that!”-->
+<!--          </real>-->
+<!--        </random>-->
+<!--      </copdesc>-->
+<!--      <gangdesc>-->
+<!--        <random>-->
+<!--          <cash>moneylending</cash>-->
+<!--          <grunt>breaking kneecaps with lead pipes</grunt>-->
+<!--          <race>fixing races</race>-->
+<!--          <drug>producing drugs</drug>-->
+<!--        </random>-->
+<!--      </gangdesc>-->
+<!--      <gangtype>-->
+<!--        <random>-->
+<!--          <m>Mob</m>-->
+<!--          <ma>Mafia</ma>-->
+<!--          <yak>Yakuza</yak>-->
+<!--          <t>Triads</t>-->
+<!--          <ko>Seoulpa Rings</ko>-->
+<!--          <gc>Ghost Cartels</gc>-->
+<!--        </random>-->
+<!--      </gangtype>-->
+<!--      <crimetext>-->
+<!--        <random>-->
+<!--          <noir>old noir movies</noir>-->
+<!--          <pulp>old pulp novels</pulp>-->
+<!--        </random>-->
+<!--      </crimetext>-->
+<!--      <megawhore>-->
+<!--        <random>-->
+<!--          <ex>extraterritoriality is a good thing</ex>-->
+<!--          <jap>extreme racism is good for national unity</jap>-->
+<!--          <unem>unemployment is a good thing</unem>-->
+<!--          <gw>global warming is really a communist hoax</gw>-->
+<!--          <polut>pollution isn’t really that big of a deal</polut>-->
+<!--          <link>megacorps keeping material links of all their employees keeps people safe</link>-->
+<!--          <azzie>human sacrifice is good for national unity</azzie>-->
+<!--        </random>-->
+<!--      </megawhore>-->
+<!--      <warnan>-->
+<!--        <random>-->
+<!--          <ucas>the UCAS</ucas>-->
+<!--          <azz>the Azzies</azz>-->
+<!--          <nan>other NANs, ironically enough</nan>-->
+<!--        </random>-->
+<!--      </warnan>-->
+<!--      <arcology>-->
+<!--        <random>-->
+<!--          <deus>was not taken over by a murderous AI bent on world domination</deus>-->
+<!--          <corp>provided for every need of its residents</corp>-->
+<!--          <runner>pampered its residents in an attempt to resign them to corp life</runner>-->
+<!--        </random>-->
+<!--      </arcology>-->
+<!--      <orphan>-->
+<!--        <random>-->
+<!--          <futurama>orphanarium</futurama>-->
+<!--          <real1>orphanage</real1>-->
+<!--          <real2>orphanage</real2>-->
+<!--          <real3>orphanage</real3>-->
+<!--          <real4>orphanage</real4>-->
+<!--        </random>-->
+<!--      </orphan>-->
+<!--      <outdoor>-->
+<!--        <random>-->
+<!--          <hunt>hunting</hunt>-->
+<!--          <trap>trapping</trap>-->
+<!--          <swim>swimming</swim>-->
+<!--          <mlp>beastiality</mlp>-->
+<!--          <incest>incest</incest>-->
+<!--        </random>-->
+<!--      </outdoor>-->
+<!--      <flee>-->
+<!--        <random>-->
+<!--          <feds>the feds</feds>-->
+<!--          <god>the Grid Overwatch Division</god>-->
+<!--          <corp>$RMEGA corporate security forces</corp>-->
+<!--          <riaa>RIAA Anti-Piracy Forces</riaa>-->
+<!--        </random>-->
+<!--      </flee>-->
+<!--      <persistent>-->
+<!--        <random>-->
+<!--          <dad>father</dad>-->
+<!--          <mom>mother</mom>-->
+<!--        </random>-->
+<!--      </persistent>-->
+<!--      <luck>-->
+<!--        <random>-->
+<!--          <l>lucky</l>-->
+<!--          <u>unlucky</u>-->
+<!--        </random>-->
+<!--      </luck>-->
+<!--      <insulta>-->
+<!--        <random>-->
+<!--          <gutter>guttersnipe</gutter>-->
+<!--          <rag>ragamuffin</rag>-->
+<!--        </random>-->
+<!--      </insulta>-->
+<!--      <mega>-->
+<!--        <persistent>-->
+<!--          <ares>Ares</ares>-->
+<!--          <aztech>Aztechnology</aztech>-->
+<!--          <evo>EVO</evo>-->
+<!--          <horizon>Horizon</horizon>-->
+<!--          <neonet>NeoNET</neonet>-->
+<!--          <mct>Mitsuhama</mct>-->
+<!--          <renraku>Renraku</renraku>-->
+<!--          <sk>Saeder-Krupp</sk>-->
+<!--          <shia>Shiawase</shia>-->
+<!--          <tele>Telestrian</tele>-->
+<!--          <wux>Wuxing</wux>-->
+<!--        </persistent>-->
+<!--      </mega>-->
+<!--      <rmega>-->
+<!--        <random>-->
+<!--          <ares>Ares</ares>-->
+<!--          <aztech>Aztechnology</aztech>-->
+<!--          <evo>EVO</evo>-->
+<!--          <horizon>Horizon</horizon>-->
+<!--          <neonet>NeoNET</neonet>-->
+<!--          <mct>Mitsuhama</mct>-->
+<!--          <renraku>Renraku</renraku>-->
+<!--          <sk>Saeder-Krupp</sk>-->
+<!--          <shia>Shiawase</shia>-->
+<!--          <tele>Telestrian</tele>-->
+<!--          <wux>Wuxing</wux>-->
+<!--        </random>-->
+<!--      </rmega>-->
+<!--      <season>-->
+<!--        <random>-->
+<!--          <spring>Spring</spring>-->
+<!--          <summer>Summer</summer>-->
+<!--          <atum>Autumn</atum>-->
+<!--          <winter>Winter</winter>-->
+<!--        </random>-->
+<!--      </season>-->
+<!--      <metatype>-->
+<!--        <random>-->
+<!--          <troll>Troll</troll>-->
+<!--          <ork>Ork</ork>-->
+<!--          <elf>Elf</elf>-->
+<!--          <dwarf>Dwarf</dwarf>-->
+<!--          <human>Human</human>-->
+<!--        </random>-->
+<!--      </metatype>-->
+<!--      <metavariant>-->
+<!--        <random>-->
+<!--          <nevergonnagiveyouup>never gonna let you down</nevergonnagiveyouup>-->
+<!--          <default>$METATYPE</default>-->
+<!--        </random>-->
+<!--      </metavariant>-->
+<!--      <test>Something something, cake?</test>-->
+<!--      <magic>Then " $TEST " and a big can of whoopass</magic>-->
+<!--    </macros>-->
+<!--  </storybuilder>-->
 </chummer>

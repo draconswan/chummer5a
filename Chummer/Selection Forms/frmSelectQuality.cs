@@ -41,14 +41,28 @@ namespace Chummer
 
         private static string _strSelectCategory = string.Empty;
 
+        private int intForcedValue;
+
         #region Control Events
 
-        public frmSelectQuality(Character objCharacter)
+        public frmSelectQuality(Character objCharacter, int forcedValue = 0)
         {
             InitializeComponent();
             this.UpdateLightDarkMode();
             this.TranslateWinForm();
             _objCharacter = objCharacter ?? throw new ArgumentNullException(nameof(objCharacter));
+            intForcedValue = forcedValue;
+
+            if (intForcedValue != 0)
+            {
+                lblMinimumBP.Visible = false;
+                label2.Visible = false;
+                label3.Visible = false;
+
+                nudMinimumBP.Visible = false;
+                nudMaximumBP.Visible = false;
+                nudValueBP.Visible = false;
+            }
 
             // Load the Quality information.
             _xmlBaseQualityDataNode = _objCharacter.LoadDataXPath("qualities.xml").SelectSingleNodeAndCacheExpression("/chummer");
@@ -467,8 +481,12 @@ namespace Chummer
                 {
                     sbdFilter.Append(" and not(metagenic = 'True') and not(required/oneof[contains(., 'Changeling')])");
                 }
-
-                if (nudValueBP.Value != 0)
+                if (intForcedValue != 0)
+                {
+                    sbdFilter.Append(" and karma = ");
+                    sbdFilter.Append(intForcedValue);
+                }
+                else if (nudValueBP.Value != 0)
                 {
                     string strValueBP = nudValueBP.Value.ToString(GlobalSettings.InvariantCultureInfo);
                     if (_objCharacter.Created && !_objCharacter.Settings.DontDoubleQualityPurchases
